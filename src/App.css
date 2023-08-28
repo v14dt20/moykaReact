@@ -1,10 +1,29 @@
+@font-face {
+  font-family: 'Poetsen';
+  src: url(./Fonts/Poetsen.ttf);
+}
+
 :root {
-  --bg-color: #051923;
-  --bg-color-btn: #0582CA;
-  --bg-color-card: #082939;
-  --secondary-color: #00A6FB;
-  --white-color: #FFFFFF;
-  --black-color: #000000;
-  --text-color-1: #051923;
-  --text-color-2: #006494;
+  /* цвета */
+  --background-color: rgba(0, 0, 0, 0.5);
+  --light-color: #FFFFFF;
+  --main-color: #40B2D6;
+
+  /* размеры */
+  --content-width: 1000px;
+  --content-vertical-padding: 100px;
+  --content-item-gap: 20px;
+  --line-height: 4px;
+  
+  /* ращмеры шрифтов */
+  --h1-font-size: 40px;
+  --text-font-size: 24px;
+
+  /* картинки */
+  --background-image: url(./Images/background.jfif)
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
