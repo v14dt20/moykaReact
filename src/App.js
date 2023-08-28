@@ -7,8 +7,8 @@ import MainPage from './Components/MainPage/MainPage';
 const App = () => {
   return (
     <div className='app-wrapper'>
-      {/* <Header />
-      <Sidebar /> */}
+      {/* <Header /> */}
+      <Sidebar />
       <MainPage />
     </div>
   );

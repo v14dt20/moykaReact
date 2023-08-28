@@ -9,6 +9,17 @@
   --light-color: #FFFFFF;
   --main-color: #40B2D6;
   --main-color-shadow: #308eaa;
+  --sidebar-color: #242526;
+  --primary-color: #3a3b3c;
+  --primary-color-light: #3a3b3c;
+  --toggle-color: #fff;
+  --text-color: #ccc;
+
+  /* Transition */
+  --tran-03: all 0.2s ease;
+  --tran-03: all 0.3s ease;
+  --tran-04: all 0.3s ease;
+  --tran-05: all 0.3s ease;
 
   /* размеры */
   --content-width: 1000px;
@@ -17,7 +28,7 @@
   --content-item-gap: 20px;
   --line-height: 4px;
   
-  /* ращмеры шрифтов */
+  /* размеры шрифтов */
   --h1-font-size: 40px;
   --text-font-size: 24px;
   --button-text-font-size: 22px;
@@ -29,4 +40,9 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  transition: var(--tran-05);
 }

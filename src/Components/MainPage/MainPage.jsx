@@ -3,7 +3,7 @@ import styleClasses from './MainPage.module.css'
 
 const MainPage = (props) => {
   return (
-    <div className={styleClasses.content}>
+    <div className={`${styleClasses.content} home`}>
       <Content1 />
     </div>
   );
