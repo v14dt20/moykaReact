@@ -8,19 +8,22 @@
   --background-color: rgba(0, 0, 0, 0.5);
   --light-color: #FFFFFF;
   --main-color: #40B2D6;
+  --main-color-shadow: #308eaa;
 
   /* размеры */
   --content-width: 1000px;
   --content-vertical-padding: 100px;
+  --content-horizontal-padding: 100px;
   --content-item-gap: 20px;
   --line-height: 4px;
   
   /* ращмеры шрифтов */
   --h1-font-size: 40px;
   --text-font-size: 24px;
+  --button-text-font-size: 22px;
 
   /* картинки */
-  --background-image: url(./Images/background.jfif)
+  --background-image: url(./Images/main.jpg)
 }
 
 * {

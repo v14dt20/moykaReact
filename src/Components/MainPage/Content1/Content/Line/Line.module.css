@@ -1,0 +1,6 @@
+.line {
+  width: 70%;
+  height: var(--line-height);
+
+  background-color: var(--main-color);
+}

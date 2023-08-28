@@ -1,0 +1,6 @@
+.header {
+  color: var(--light-color);
+
+  font-family: 'Poetsen';
+  font-size: var(--h1-font-size);
+}

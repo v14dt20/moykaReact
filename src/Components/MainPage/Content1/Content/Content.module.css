@@ -1,0 +1,12 @@
+.content {
+  width: var(--content-width);
+  height: calc(100vh - var(--vertical-padding-content) * 2);
+
+  margin: var(--content-horizontal-padding);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: var(--content-item-gap);
+}

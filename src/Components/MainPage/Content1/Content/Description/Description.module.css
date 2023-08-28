@@ -1,0 +1,6 @@
+.description {
+  color: var(--light-color);
+
+  font-family: 'Poetsen';
+  font-size: var(--text-font-size);
+}
